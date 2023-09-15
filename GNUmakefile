@@ -194,6 +194,9 @@ freebsd-x86-32:
 freebsd-x86-64:
 	$(MAKE) $(ALL) CONFIG=vm/Config.freebsd.x86.64
 
+netbsd-x86-64:
+	$(MAKE) $(ALL) CONFIG=vm/Config.netbsd.x86.64
+
 macosx-x86-32:
 	$(MAKE) $(ALL) macosx.app CONFIG=vm/Config.macosx.x86.32
 
